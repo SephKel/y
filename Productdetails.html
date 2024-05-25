@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Detailed view of the product at ShoeShop.">
+  <title>Product Details - ShoeShop</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../index.html"><img src="Gray and White Minimalist Shoes Logo.jpg" alt="Footwear Hub" width="200"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="About Us.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="Contactus.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="dunk-low-retro-shoes-Q2Gtpp.png" alt="Casual Sneakers" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h1>Dunk Low Retro</h1>
+        <p class="text-muted">Product ID: CS001</p>
+        <p class="price">$79.99</p>
+        <p>Comfortable and stylish casual sneakers for everyday wear. Perfect for walking, running errands, or just hanging out.</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+          <li>Breathable fabric upper</li>
+          <li>Durable rubber sole</li>
+          <li>Available in multiple colors</li>
+          <li>Sizes: 6-12</li>
+        </ul>
+        <form action="#" method="post" class="mt-4">
+          <div class="form-group">
+            <label for="size">Select Size:</label>
+            <select id="size" name="size" class="form-control" required>
+              <option value="">Choose...</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="color">Select Color:</label>
+            <select id="color" name="color" class="form-control" required>
+              <option value="">Choose...</option>
+              <option value="Black">Black</option>
+              <option value="White">White</option>
+              <option value="Blue">Blue</option>
+              <option value="Red">Red</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Add to Cart</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center py-4">
+    <p>&copy; 2024 ShoeShop. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
